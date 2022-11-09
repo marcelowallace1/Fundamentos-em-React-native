@@ -1,11 +1,12 @@
 import { StyleSheet } from "react-native"
-
+{/* estilo padrao do app */}
 export const styles = StyleSheet.create({
     container:{
       flex: 1,
       backgroundColor: '#282424',
       padding: 24
     },
+
     eventName: {
       color: 'white',
       fontSize: 24,
@@ -26,7 +27,7 @@ export const styles = StyleSheet.create({
         marginRight: 12
     },
     buttonText:{
-      color: 'FFF',
+      color: 'white',
       fontSize: 24
     },
     button:{
@@ -43,6 +44,11 @@ export const styles = StyleSheet.create({
       flexDirection: 'row',
       marginTop: 36,
       marginBottom: 42
+    },
+    listEmptyText:{
+      color: 'white',
+      fontSize: 14,
+      textAlign: 'center'
     }
   
   })
